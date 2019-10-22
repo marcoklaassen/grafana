@@ -30,6 +30,7 @@ export interface GrafanaThemeCommons {
       light: number;
       regular: number;
       semibold: number;
+      bold: number;
     };
     lineHeight: {
       xs: number; //1
@@ -68,6 +69,7 @@ export interface GrafanaThemeCommons {
     formFieldsetMargin: string;
     formLegendMargin: string;
     formInputHeight: string;
+    formButtonHeight: number;
     formInputPaddingHorizontal: string;
     // Used for icons do define spacing between icon and input field
     // Applied on the right(prefix) or left(suffix)
